@@ -66,7 +66,7 @@ const Home = ({ transferAmount }) => {
                 Transfer Amount
               </button>
               <p className="my-3">
-                A Player can Transfer 1 Ether only for a part in the Lottery
+                A Player can Transfer 01 Ether only for a part in the Lottery
                 System.
               </p>
             </div>

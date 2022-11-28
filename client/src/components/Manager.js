@@ -20,7 +20,7 @@ const Manager = ({ state, account }) => {
       setCBalance(web3.utils.fromWei(balance, "ether"));
       console.log(balance);
     } catch (error) {
-      setCBalance("You are not the Manager");
+      setCBalance("You aren't the Manager");
     }
     reloadEffect(reload);
   };
